@@ -1,1 +1,8 @@
- resolve the problem of can't push origin 
+#resolve the problem of can't push origin 
+
+modify .git/config
+
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://caixide@github.com:caixide/learngit.git
+
