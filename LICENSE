@@ -1,1 +1,4 @@
 test license
+rm license
+git rm license
+git commit -m "delete license"
